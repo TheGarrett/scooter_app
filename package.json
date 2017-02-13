@@ -1,0 +1,22 @@
+{
+  "name": "scooter_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGarrett/scooter_app.git"
+  },
+  "author": "Ryan Garrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGarrett/scooter_app/issues"
+  },
+  "homepage": "https://github.com/TheGarrett/scooter_app#readme",
+  "dependencies": {
+    "framework7": "^1.5.3"
+  }
+}
