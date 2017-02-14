@@ -5,35 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>Scooters</title>
+    <title>Scooter Wisdom</title>
     <link rel="stylesheet" href="node_modules/framework7/dist/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="">
   </head>
   <body>
-    <!-- Status bar overlay for fullscreen mode-->
+    <!-- Status bar overlay for fullscreen mode -->
     <div class="statusbar-overlay"></div>
-    <!-- Views-->
+    <!-- Views -->
     <div class="views">
-      <!-- Your main view, should have "view-main" class-->
+      <!-- Main view -->
       <div class="view view-main">
-        <!-- Top Navbar-->
+        <!-- Top Navbar -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">Scooters</div>
+            <div class="center sliding">Scooter Wisdom</div>
           </div>
         </div>
 
         <div class="pages navbar-through toolbar-through">
-          <!-- Index Page-->
+          <!-- Index Page -->
           <div data-page="index" class="page">
             <div class="page-content">
-              <div class="content-block">
+              <!-- Container for the introduction -->
+              <div class="content-block intoContainer">
+                <!-- Logo -->
+                <img class="logoImg" src="http://t02.deviantart.net/JJ0Q5wscHtzs6wrEnW_esiBlxb4=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre10/f6e4/th/pre/f/2016/287/c/c/vespa_universitas_nasional__venas__by_ardhagaruda-dakyrir.png" alt="logo">
+                <!-- Introduction text-->
+                <p>Your number 1 place for scooter knowledge!</p>
               </div>
               <div class="list-block">
+                <!-- Start of the menu -->
                 <ul>
+                  <!-- Scooter components link -->
                   <li>
-                    <a href="countries.html" data-context-name="countrylist" class="item-link item-content">
+                    <a href="./countries.html" data-context-name="countrylist" class="item-link item-content">
                       <div class="item-inner">
-                        <div class="item-title">Countries of the World</div>
+                        <div class="item-title">Scooter Components</div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Blank link to the setting page -->
+                  <li>
+                    <a href="#" class="item-link item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Settings</div>
                       </div>
                     </a>
                   </li>
@@ -48,6 +65,6 @@
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="node_modules/framework7/dist/js/framework7.min.js"></script>
     <!-- Path to your app js-->
-    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="./js/my-app.js"></script>
   </body>
 </html>

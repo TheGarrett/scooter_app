@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TheGarrett/scooter_app#readme",
   "dependencies": {
-    "framework7": "^1.5.3"
+    "framework7": "^1.5.3",
+    "handlebars": "^4.0.6"
   }
 }
