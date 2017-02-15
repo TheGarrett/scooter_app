@@ -3,7 +3,7 @@
   <div class="navbar-inner">
     <!-- Back button -->
     <div class="left sliding">
-      <a href="#" class="back link"> 
+      <a href="../index.html" class="back link"> 
         <span>Back</span>
       </a>
     </div>
@@ -13,7 +13,7 @@
 </div>
 
 <div class="pages">
-  <div data-page="countrylist" class="page">
+  <div data-page="partslist" class="page">
     <div class="page-content">
       <!-- Sub heading -->
       <div class="content-block-title">Choose a scooter component:</div>
@@ -24,9 +24,9 @@
           {{#each this}}
           <li>
             <!-- Link to the more detail view, passes info using 'data-context-name'' -->
-            <a href="detail.html" class="item-content item-link" data-context-name="countrylist.{{@index}}​">
+            <a href="./templates/detail.html" class="item-content item-link" data-context-name="partslist.{{@index}}">
               <div class="item-inner">
-                <div class="item-title">{{Country}}​</div>
+                <div class="item-title">{{Part}}​</div>
               </div>
             </a>
           </li>

@@ -19,7 +19,7 @@ var $$ = Dom7;
 // Function gets information from json
 function getCountries() {
   $$.getJSON('../components.json', function (json) {
-    myApp.template7Data.countrylist = json ;
+    myApp.template7Data.partslist = json;
   });
 };
 

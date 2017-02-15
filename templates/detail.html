@@ -1,0 +1,31 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left sliding">
+      <a href="../index.html" class="back link">
+        <span class="backButton">Back</span>
+      </a>
+    </div>
+    <div class="center sliding">{{Part}}​</div>
+  </div>
+</div>
+
+<div class="pages">
+  <div data-page="partslist" class="page">
+    <div class="page-content">
+      <div class="content-block inset">
+        <div class="content-block-inner">
+          <h3>{{Part}}​</h3>
+          <ul>
+            <li>Img: {{URL}}</li>
+            <li>Summary: {{Summary}}</li>
+            <li>Description: {{Description}}</li>
+            {{#Comments}}
+            <li>Username: {{Username}}</li>
+            <li>Comment: {{Comment}}</li>
+            {{/Comments}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

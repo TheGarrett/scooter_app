@@ -1,48 +1,36 @@
 [
   {
     "Id": 1,
-    "Country": "USA",
-    "Region": "America",
-    "Population": 31056997,
-    "AreaSqMile": 647500,
-    "PopulationDensity": 48,
-    "Coastline": 0,
-    "NetMigration": 23.06,
-    "InfantMortality": 163.07,
-    "GDP": 700,
-    "Literacy": 36,
-    "Phones": 3.2,
-    "Arable": 12.13,
-    "Crops": 0.22,
-    "Other": 87.65,
-    "Climate": 1,
-    "Birthrate": 46.6,
-    "Deathrate": 20.34,
-    "Agriculture": 0.38,
-    "Industry": 0.24,
-    "Service": 0.38
+    "Part": "Engine",
+    "Description": "Really fast engine",
+    "Summary": "V12",
+    "URL": "Blach",
+    "Comments":[
+      {
+        "Username":"Ryan Garrett",
+        "Comment":"This is dope!"
+      },
+      {
+        "Username":"Joe Rushbrooke",
+        "Comment":"Really fast!"
+      }
+    ]
   },
   {
     "Id": 2,
-    "Country": "UK",
-    "Region": "Europe",
-    "Population": 31056997,
-    "AreaSqMile": 647500,
-    "PopulationDensity": 48,
-    "Coastline": 0,
-    "NetMigration": 23.06,
-    "InfantMortality": 163.07,
-    "GDP": 700,
-    "Literacy": 36,
-    "Phones": 3.2,
-    "Arable": 12.13,
-    "Crops": 0.22,
-    "Other": 87.65,
-    "Climate": 1,
-    "Birthrate": 46.6,
-    "Deathrate": 20.34,
-    "Agriculture": 0.38,
-    "Industry": 0.24,
-    "Service": 0.38
+    "Part": "Brakes",
+    "Description": "Really stern brakes",
+    "Summary": "Brakes series 12",
+    "URL": "Blach",
+    "Comments": [
+      {
+        "Username":"Daniel Tate",
+        "Comment":"Wicked"
+      },
+      {
+        "Username":"Connor Howe",
+        "Comment":"Best brakes ever"
+      }
+    ]
   }
 ]
