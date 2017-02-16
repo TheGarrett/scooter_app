@@ -3,20 +3,23 @@
   <div class="navbar-inner">
     <!-- Back button -->
     <div class="left sliding">
-      <a href="../index.html" class="back link"> 
+      <a href="../index.html" class="back link">
         <span>Back</span>
       </a>
     </div>
     <!-- Title -->
-    <div class="center sliding">Scooter Components</div>
+    <div class="center sliding">Honda PCX 125cc</div>
   </div>
 </div>
 
 <div class="pages">
   <div data-page="partslist" class="page">
     <div class="page-content">
+      <div class="img-circle">
+        <img class="scooterImg" src="http://www.pedparts.co.uk/c/asset/bike-descript-pics/Honda_PCX_125.png" alt="Honda PCX 125cc">
+      </div>
       <!-- Sub heading -->
-      <div class="content-block-title">Choose a scooter component:</div>
+      <div class="content-block-title">Parts:</div>
       <div class="list-block">
         <!-- Displays the components list -->
         <ul>
@@ -26,7 +29,7 @@
             <!-- Link to the more detail view, passes info using 'data-context-name'' -->
             <a href="./templates/detail.html" class="item-content item-link" data-context-name="partslist.{{@index}}">
               <div class="item-inner">
-                <div class="item-title">{{Part}}​</div>
+                <div class="item-title">{{Name}}​</div>
               </div>
             </a>
           </li>

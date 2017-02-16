@@ -5,7 +5,7 @@
         <span class="backButton">Back</span>
       </a>
     </div>
-    <div class="center sliding">{{Part}}​</div>
+    <div class="center sliding">{{Name}}​</div>
   </div>
 </div>
 
@@ -14,17 +14,17 @@
     <div class="page-content">
       <div class="content-block inset">
         <div class="content-block-inner">
-          <h3>{{Part}}​</h3>
+          <img class="scooterImg" src="{{URL}}" alt="Honda PCX 125cc Engine">
           <ul>
-            <li>Img: {{URL}}</li>
-            <li>Summary: {{Summary}}</li>
-            <li>Description: {{Description}}</li>
-            {{#Comments}}
-            <li>Username: {{Username}}</li>
-            <li>Comment: {{Comment}}</li>
-            {{/Comments}}
+            {{#Parts}}
+            <li>{{Part}}: {{PartDetail}}</li>
+            {{/Parts}}
           </ul>
         </div>
+        {{#Comments}}
+        <p>Username: {{Username}}</p>
+        <p>Comment: {{Comment}}</p>
+        {{/Comments}}
       </div>
     </div>
   </div>
