@@ -1,27 +1,42 @@
 [
   {
     "Id": 1,
-    "Part": "Engine",
-    "Description": "Really fast engine",
-    "Summary": "V12",
-    "URL": "Blach",
-    "Comments":[
+    "Name": "Engine",
+    "Parts": [
       {
-        "Username":"Ryan Garrett",
-        "Comment":"This is dope!"
+        "Part":"Bore",
+        "PartDetail":"52.4 x 57.9"
       },
       {
-        "Username":"Joe Rushbrooke",
-        "Comment":"Really fast!"
+        "Part":"Carburation",
+        "PartDetail":"PGM-FI electronic fuel injection"
+      },
+      {
+        "Part":"Compression",
+        "PartDetail":"11:1"
+      },
+      {
+        "Part":"Displacement",
+        "PartDetail":"125"
+      },
+      {
+        "Part":"Type",
+        "PartDetail":"Single-cylinder, liquid cooled, SOHC 4-stroke 2-valve"
+      },
+      {
+        "Part":"Power",
+        "PartDetail":"8.6kW/8,500 rpm (95/1/EC)"
+      },
+      {
+        "Part":"Torque",
+        "PartDetail":"12Nm/5,000 rpm (95/1/EC)"
+      },
+      {
+        "Part":"Starter",
+        "PartDetail":"Electric"
       }
-    ]
-  },
-  {
-    "Id": 2,
-    "Part": "Brakes",
-    "Description": "Really stern brakes",
-    "Summary": "Brakes series 12",
-    "URL": "Blach",
+    ],
+    "URL": "http://www.pedparts.co.uk/c/category/banner/Engine_parts_30.png",
     "Comments": [
       {
         "Username":"Daniel Tate",

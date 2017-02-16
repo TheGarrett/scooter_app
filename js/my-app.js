@@ -16,14 +16,14 @@ var myApp = new Framework7({
 // Export selectors engine
 var $$ = Dom7;
 
-// Function gets information from json
-function getCountries() {
+// Function gets part information from json
+function getComponents() {
   $$.getJSON('../components.json', function (json) {
     myApp.template7Data.partslist = json;
   });
 };
 
-getCountries();
+getComponents();
 
 // Add main View
 var mainView = myApp.addView('.view-main', {
