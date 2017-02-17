@@ -14,16 +14,24 @@
     <div class="page-content">
       <div class="content-block inset">
         <div class="content-block-inner">
-          <img class="scooterImg" src="{{URL}}" alt="Honda PCX 125cc Engine">
-          <ul>
+          <img class="partImg" src="{{URL}}" alt="Honda PCX 125cc Engine">
+          <hr />
             {{#Parts}}
-            <li>{{Part}}: {{PartDetail}}</li>
+            <h3 class="partTitle">{{Part}}</h3>
+            <p id="test" class="partText">{{PartDetail}}</p><hr />
             {{/Parts}}
-          </ul>
         </div>
+        <h3>Comments:</h3>
         {{#Comments}}
-        <p>Username: {{Username}}</p>
-        <p>Comment: {{Comment}}</p>
+        <div class="commentBox">
+          <div>
+            <img class="userImg" src="{{UserImg}}" alt="Honda PCX 125cc Engine">
+          </div>
+          <div class="userCon2">
+            <p class="userName">{{Username}}</p>
+            <p class="userComment">{{Comment}}</p>
+          </div>
+        </div>
         {{/Comments}}
       </div>
     </div>

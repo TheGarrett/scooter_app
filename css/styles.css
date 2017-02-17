@@ -1,6 +1,21 @@
 .navbar {
-  background: #0C1D4E;
+  background: #1e3d63;
   color: white;
+}
+
+.page-content {
+  background-color: aliceblue;
+}
+
+li {
+  background-color: #1e3d63;
+  border-top: 1px solid aliceblue;
+  color: white;
+}
+
+.content-block.inset .content-block-inner {
+  border-radius: 7px;
+  border: 2px solid black;
 }
 
 span {
@@ -12,8 +27,7 @@ span {
 }
 
 .logoImg {
-  height: 180px;
-  width: 180px;
+  height: 190px;
 }
 
 .scooterImg {
@@ -28,7 +42,55 @@ span {
   margin-left: 25%;
   margin-right: 24%;
   margin-top: 7%;
-  border: 2px #0C1D4E solid;
+  border: 4px #1e3d63 solid;
   border-radius: 108px;
   background-color: white;
+}
+
+.partImg {
+  margin-left: 13%;
+  height: 150px;
+}
+
+.partTitle {
+  color: #1e3d63;
+}
+
+.partText {
+  margin-top: -4%;
+}
+
+.commentBox {
+  border: 1px solid;
+  display: flex;
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.userImg {
+  height: 70px;
+}
+
+.userCon2 {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  overflow: scroll;
+  padding-left: 2%;
+}
+
+.userName {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+  margin: 0;
+  padding-top: 1%;
+}
+
+.userComment {
+  margin-top: -2%;
+  margin: 0;
+  padding-top: 1%;
 }
