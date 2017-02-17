@@ -39,12 +39,177 @@
     "URL": "http://www.pedparts.co.uk/c/category/banner/Engine_parts_30.png",
     "Comments": [
       {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
         "Username":"Daniel Tate",
-        "Comment":"Wicked"
+        "Comment":"Really fast!"
       },
       {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
         "Username":"Connor Howe",
-        "Comment":"Best brakes ever"
+        "Comment":"Best engine a moped can get."
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Wheels",
+    "Parts": [
+      {
+        "Part":"Brakes Front",
+        "PartDetail":"220mm hydraulic disc with combined 3-piston caliper"
+      },
+      {
+        "Part":"Brakes Rear",
+        "PartDetail":"130mm Combined leading/trailing drum"
+      },
+      {
+        "Part":"Suspension Front",
+        "PartDetail":"31mm telescopic for, 100mm stroke"
+      },
+      {
+        "Part":"Suspension Rear",
+        "PartDetail":"Twin suspension aluminium swingarm, 75mm stroke"
+      },
+      {
+        "Part":"Tyre Size Front",
+        "PartDetail":"90/90-14M/C"
+      },
+      {
+        "Part":"Tyre Size Rear",
+        "PartDetail":"100/90-14M/C"
+      },
+      {
+        "Part":"Wheels Front",
+        "PartDetail":"5-spoke cast aluminium"
+      },
+      {
+        "Part":"Wheels Rear",
+        "PartDetail":"5-spoke cast aluminium"
+      }
+    ],
+    "URL": "http://www.pedparts.co.uk/c/category/banner/Tyres_And_Tubes_1.png",
+    "Comments": [
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Daniel Jobson",
+        "Comment":"Worse tires I've ever had!"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Dimentions & Weight",
+    "Parts": [
+      {
+        "Part":"Battery Capacity",
+        "PartDetail":"12V-6Ah"
+      },
+      {
+        "Part":"Caster Angle",
+        "PartDetail":"27°"
+      },
+      {
+        "Part":"Dimensions (LxWxH)",
+        "PartDetail":"1930 × 740 × 1100"
+      },
+      {
+        "Part":"Frame Type",
+        "PartDetail":"Tubular Steel Underbone"
+      },
+      {
+        "Part":"Fuel Tank Capacity",
+        "PartDetail":"8.0 litres"
+      },
+      {
+        "Part":"Fuel Consumption",
+        "PartDetail":"133.9 mpg"
+      },
+      {
+        "Part":"Ground Clearance (mm)",
+        "PartDetail":"135"
+      },
+      {
+        "Part":"Kerb Weight (kg)",
+        "PartDetail":"130"
+      },
+      {
+        "Part":"Seat Height (mm)",
+        "PartDetail":"760"
+      },
+      {
+        "Part":"Trail (mm)",
+        "PartDetail":"86"
+      },
+      {
+        "Part":"Wheelbase (mm)",
+        "PartDetail":"1315"
+      }
+    ],
+    "URL": "http://www.pedparts.co.uk/c/category/banner/Body_Panels_Styling_Parts.png",
+    "Comments": [
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Clint Eastwood",
+        "Comment":"Amazed how light this bike is!"
+      },
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Jon Snow",
+        "Comment":"The fuel in this bike lasts all month"
+      },
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Mace Windu",
+        "Comment":"Best frame out there."
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Transmission",
+    "Parts": [
+      {
+        "Part":"Clutch",
+        "PartDetail":"Automatic, centrifugal, dry type"
+      },
+      {
+        "Part":"Final Drive",
+        "PartDetail":"V-Belt"
+      },
+      {
+        "Part":"Gearbox",
+        "PartDetail":"Continuously Variable (V-Matic)"
+      }
+    ],
+    "URL": "http://www.pedparts.co.uk/c/category/banner/Transmission_Clutch_Belts_5.png",
+    "Comments": [
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Harry Potter",
+        "Comment":"10/10"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Instruments & Electrics",
+    "Parts": [
+      {
+        "Part":"Headlights",
+        "PartDetail":"5.4W/9.6W"
+      }
+    ],
+    "URL": "http://www.pedparts.co.uk/c/category/banner/Lamps_Lights_and_Lenses_2.png",
+    "Comments": [
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"John Wick",
+        "Comment":"Lights not very good."
+      },
+      {
+        "UserImg":"https://docs.moodle.org/23/en/images_en/7/7c/F1.png",
+        "Username":"Karl Darlow",
+        "Comment":"Yeah I 100% agree!"
       }
     ]
   }
