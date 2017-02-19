@@ -14,18 +14,22 @@
     <div class="page-content">
       <div class="content-block inset">
         <div class="content-block-inner">
-          <img class="partImg" src="{{URL}}" alt="Honda PCX 125cc Engine">
+          <!-- Moped part image -->
+          <img class="partImg" src="{{URL}}" alt="Honda PCX 125cc part image">
           <hr />
+            <!-- Loops through all the parts and displays -->
             {{#Parts}}
             <h3 class="partTitle">{{Part}}</h3>
-            <p id="test" class="partText">{{PartDetail}}</p><hr />
+            <p class="partText">{{PartDetail}}</p><hr />
             {{/Parts}}
         </div>
+        <!-- Comments section -->
         <h3>Comments:</h3>
+        <!-- Loops through all the comments and displays -->
         {{#Comments}}
         <div class="commentBox">
           <div>
-            <img class="userImg" src="{{UserImg}}" alt="Honda PCX 125cc Engine">
+            <img class="userImg" src="{{UserImg}}" alt="User profile image">
           </div>
           <div class="userCon2">
             <p class="userName">{{Username}}</p>
